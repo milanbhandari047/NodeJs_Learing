@@ -3,6 +3,11 @@ const app = express()
 
 // port no :1300 to 650000  , 1300 vanda tala system la use garxa
 
+
+// requiring datbase 
+require("./model/index")
+
+
 //setting up ejs, telling nodejs to use ejs
 app.set('view engine','ejs')
 
